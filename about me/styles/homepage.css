@@ -1,0 +1,14 @@
+body{
+    background-color: white;
+}
+
+p{
+    font-size: 300%;
+    text-align:center;
+}
+
+.smallparagraph{
+    font-size: 15px;
+    color: purple;
+    text-align:center;
+}
