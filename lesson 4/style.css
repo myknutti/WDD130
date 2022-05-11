@@ -1,0 +1,60 @@
+body {
+    background-color: #FBA6C9;
+}
+
+.pageContent {
+text-align: center;
+width: 50%;
+max-width: 700px;
+/*width: 400px; */
+margin: 0 auto;
+}
+
+h1:hover {
+    color: black;
+}
+
+.pageContent ol {
+    text-align: left;
+    font-weight: bold;
+}
+
+.pageContent ol li {
+    /* padding-bottom: 20px; */
+    line-height: 30px;
+}
+.coolFont {
+    font-family: Arial, sans-serif;
+}
+
+.white {
+    color: white;
+}
+
+img {
+    width: 150px;
+}
+
+.quotation {
+    margin: 20px 70px;
+    font-size: 35px;
+}
+
+.quotation::before {
+    content: ❝ ;
+    margin-right: 5px;
+}
+
+.quotation::after {
+    content: ❞ ;
+    margin-left: 5px;
+}
+
+footer {
+    margin: 0 50px;
+}
+
+footer p {
+    font-size: 80%;
+    margin: 3px;
+}
