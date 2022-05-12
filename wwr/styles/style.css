@@ -35,11 +35,11 @@ main section {
 }
 
 body {
-    background-color: #6B705C;
+    background-color: #CB997E;
 }
 
 header {
-   background-color: #CB997E;
+   background-color: #6B705C;
 }
 
 nav a:hover {
@@ -71,7 +71,7 @@ footer {
 }
 
 .home-title {
-    color: #6B705C;
+    color: white;
 }
 
 h4 {
@@ -86,7 +86,7 @@ msg p {
 }
 
 footer h3 {
-    color: #b7b7a4;
+    color: #6B705C;
 }
 
 footer a {
