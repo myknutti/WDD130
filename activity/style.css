@@ -1,0 +1,41 @@
+ body {
+ text-align: center
+ }
+ 
+ body div {
+ line-height: 50px;
+ }
+ 
+ .top {
+ background-color: red;
+ margin: 0 30%;
+ }
+ 
+ .middle {
+ background-color: blue;
+ margin: 0 20%;
+ }
+ 
+ .bottom {
+ background-color: green;
+ margin: 0 10%;
+ }
+
+ .box {
+     height: 100px; 
+     width: 100px;
+     background-color: yellow;
+ }
+
+ .sides {
+     margin: 100px 10% 0 10%;
+ }
+
+ .left {
+float: left;
+ }
+
+ .right {
+     float: right;
+ }
+ 

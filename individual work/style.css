@@ -1,0 +1,30 @@
+.pizza {
+    color: red;
+}
+.button {
+    background-color: white;
+    color: yellow;
+}
+
+body div {
+    line-height: 75px;
+}
+
+.top {
+    background-color: red;
+    margin: 50px;
+    text-align: center;
+}
+
+.middle {
+    background-color: beige;
+    margin: 75px;
+    text-align: center;
+}
+
+.bottom {
+    background-color: black;
+    margin: 110px;
+    text-align: center;
+    color: white;
+}
