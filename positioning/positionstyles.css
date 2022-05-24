@@ -101,28 +101,28 @@ grid-gap: 20px;
   grid-template-rows: 3;
 }
 .red4 {
-  width: 400px; 
+  width: 500px; 
   height: 100%; 
   background-color: red; 
   grid-column: 1;
   grid-row: 1/4;
 } 
 .green4 {
-  width: 400px; 
+  width: 500px; 
   height: 150px; 
   background-color: green; 
   grid-column: 2;
   grid-row: 1;
 } 
 .yellow4 {
-  width: 400px; 
+  width: 500px; 
   height: 150px; 
   background-color: gold; 
   grid-column: 2;
   grid-row: 2;
 } 
 .blue4 {
-  width: 400px; 
+  width: 500px; 
   height: 150px; 
   background-color: blue; 
   grid-column: 2;
