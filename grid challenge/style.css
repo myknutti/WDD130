@@ -1,0 +1,21 @@
+.parent {
+    display: grid
+    grid-template-columns: repeat (4, 1fr);
+    grid-template-rows: 
+}
+
+.header {
+    background-color: blue;
+    grid-column: 1 / 5;
+    grid-row: 1/ 2;
+}
+
+.left {
+    background-color: red;
+    grid-column: 1/2;
+    grid-row: 2/12;
+}
+
+.main {
+    background-color: pink;
+}
