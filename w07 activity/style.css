@@ -1,0 +1,55 @@
+body {
+    display: grid;
+    grid-template-columns: repeat (10, 1fr);
+    grid-template-rows: repeat (5, 100px);
+}
+
+.row1 {
+    justify-content: center;
+    display: grid;
+}
+
+.row1 div {
+    width: 200px;
+    background-color: greenyellow;
+}
+
+.row2 {
+    justify-content: center;
+    display: grid;
+}
+
+.row2 div {
+    width: 400px;
+    background-color: greenyellow;
+}
+
+.row3 {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.row3 div {
+    width: 200px;
+    background-color: greenyellow;
+}
+
+.row4 {
+    justify-content: space-around;
+    display: flex;
+}
+
+.row4 div {
+    width: 200px;
+    background-color: greenyellow;
+}
+
+.row5 {
+    justify-content: space-between;
+    display: flex;
+}
+
+.row5 div {
+    width: 200px;
+    background-color: greenyellow;
+}
