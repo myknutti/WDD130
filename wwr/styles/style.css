@@ -264,3 +264,32 @@ footer h3 a:hover {
         margin-top: 25px;
     }
 }
+/* second page css*/
+
+ .box {
+    margin: 24px 8px;
+ }
+
+ .questions {
+    padding-left: 40px;
+    padding-right: 40px;
+ }
+
+ .title {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100px;
+    align-items: end;
+ }
+
+ .titlequestions {
+    margin-bottom: 8px;
+ }
+
+ .answers {
+    margin-top: 8px;
+    padding: 20px;
+    border: 2px solid gray;
+    background: rgba(202, 211, 202, 0.4);
+    border-radius: 20px;
+ }
