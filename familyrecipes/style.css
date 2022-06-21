@@ -198,7 +198,7 @@ footer h3 a:hover {
     width: 100%;
     margin: auto;
 }
-
+ 
 .awkwardgrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
