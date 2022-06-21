@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Square+Peg&display=swap);
+
+#content {
+    max-width: 1600px;
+    margin: 0% auto;
+    width: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.navtext {
+    font-size: 20px;
+}
+
+.home-title {
+    color: #f2f2f2;
+    font-family: square peg;
+    font-size: 6em;
+    margin-top: 10px;
+    bottom: 100px;
+    position: absolute;
+    left: 40%;
+    z-index: 2;
+}
+
+.logo {
+    width: 150px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #D9C45B;
+}
+
+.header {
+    background-color: #D9C45B;
+}
+
+nav a {
+    text-align: center; 
+    color: #A65E44;
+    text-decoration: none;
+    padding: 50px;
+    background-color: #D9C45B;
+}
+
+nav a:hover {
+    background-color: #A65E44;
+    color: #f2f2f2;
+}
+
+#girlcooks {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#girlbox {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+    position: relative;
+}
+
+#girl-img {
+    width: 100%;
+}
+
+#girl-msg {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    margin-top: 0;
+}
+
+.missionstatement {
+    font-size: 75px;
+    color: #F2BC79;
+    font-family: square peg;
+    text-align: center;
+}
+
+.mainbody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #D9C45B;
+}
+
+.contenthome {
+    font-size: 25px;
+    font-family: roboto;
+    grid-column: 1;
+    line-height: 1.5;
+    color: #f2f2f2;
+    padding: 10px;
+}
+
+.pancakes {
+    width: 100%;
+    grid-column: 2;
+}
+
+footer {
+    background-color: #D9C45B;
+    padding: 25px 50px;
+    padding-top: 15px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3 {
+    color: #f2f2f2;
+}
+
+footer a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #A65E44;
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+}
