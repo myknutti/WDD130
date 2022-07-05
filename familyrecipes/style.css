@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Square+Peg&display=swap);
 
-#content {
+body {
     max-width: 1600px;
     margin: 0% auto;
     width: auto;
@@ -156,6 +156,7 @@ footer h3 a:hover {
 
 .avocado {
     width: 100%;
+    max-height: fit-content;
 }
 
 #buttongrid {
@@ -184,7 +185,9 @@ footer h3 a:hover {
     width: 350px;
     height: 100px;
     justify-self: center;
+    align-self: end;
    border: transparent;
+   margin-bottom: 180px;
 }
 
 .button:hover {
@@ -202,7 +205,8 @@ footer h3 a:hover {
 .awkwardgrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 162px 1fr;
+
 }
 
 .questions {
@@ -213,24 +217,15 @@ footer h3 a:hover {
     grid-column: 1;
     grid-row: 1; 
     justify-content: center;
-    padding-left: 70px;
-    padding-top: 70px;
+    padding: 35px 70px;
     margin: 0%;
     border-radius: 5px;
-}
-
-.contentquestions {
-    font-size: 25px;
-    font-family: roboto;
-    color: #F2BC79; 
-    grid-column: 1;
-    grid-row: 3;
 }
 
 .bakinggirl {
     width: 100%;
     grid-column: 2;
-    grid-row: 1/4;
+    grid-row: 1/3;
 }
 
 .titlequestions {
@@ -245,9 +240,12 @@ footer h3 a:hover {
     color: #F2BC79;
     font-family: roboto; 
     line-height: 1.5;
+    list-style-type: none;
+    margin-right: 10px;
 }
 
 .answerquestions {
     color: #F2BC79;
     font-size: 18px;
+    margin-left: 20px;
 }
